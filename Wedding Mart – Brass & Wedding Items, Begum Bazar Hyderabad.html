@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wedding Mart – Brass &amp; Wedding Items, Begum Bazar Hyderabad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Mukta:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1ebdf;--surface:#f9f5ec;--ink:#2a211c;--mute:#6b6057;--maroon:#44202a;--brass:#9a7a3c;--brass2:#c9ad6e;--line:#dcd0b9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1210;--surface:#251a17;--ink:#f3e9da;--mute:#b9a994;--maroon:#7a1d30;--line:#3b2c26;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a1210;--surface:#251a17;--ink:#f3e9da;--mute:#b9a994;--maroon:#7a1d30;--line:#3b2c26;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Mukta,system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:0;line-height:1.15}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.top{background:var(--maroon);color:#f7e7c0;font-size:14px;text-align:center;padding:8px 12px}
+.top a{font-weight:700;text-decoration:none}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:16px;padding:12px 20px;max-width:1180px;margin:0 auto}
+.logo{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:28px;color:var(--maroon);text-decoration:none;line-height:1}
+.logo small{display:block;font:500 11px Mukta,sans-serif;color:var(--brass);letter-spacing:.04em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logo{color:var(--brass2)}}
+.search{flex:1;max-width:420px;margin-left:auto}
+.search input{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);font:inherit}
+.btn{display:inline-block;border:0;cursor:pointer;background:var(--maroon);color:#fff;padding:11px 22px;border-radius:4px;font:700 15px Mukta,sans-serif;text-decoration:none}
+.btn.gold{background:var(--brass);color:#2b1a14}
+.btn.line{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn:focus-visible,input:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+.cartbtn{position:relative;background:none;border:1px solid var(--line);border-radius:999px;padding:9px 16px;cursor:pointer;color:var(--ink);font:600 15px Mukta,sans-serif}
+.cartbtn b{background:var(--brass);color:#2b1a14;border-radius:999px;padding:0 8px;margin-left:6px}
+nav{border-top:1px solid var(--line);overflow-x:auto}
+nav .in{display:flex;gap:6px;max-width:1180px;margin:0 auto;padding:0 20px;white-space:nowrap}
+nav button{background:none;border:0;border-bottom:3px solid transparent;padding:12px 14px;font:600 15px Mukta,sans-serif;color:var(--ink);cursor:pointer}
+nav button[aria-pressed="true"]{border-color:var(--brass);color:var(--maroon)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) nav button[aria-pressed="true"]{color:var(--brass2)}}
+.hero{background:linear-gradient(120deg,#2b1519,#3f212a 60%,#4a2b22);color:#fbefd2;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;padding-top:56px;padding-bottom:56px}
+.hero h1{font-size:clamp(36px,5.5vw,62px);font-weight:700}
+.hero p{max-width:46ch;color:#ecd9b0;font-size:18px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.hero .btn.line{color:#fbefd2;border-color:#e6c36e}
+.hero svg{width:100%;max-height:340px}
+.strip{background:var(--surface);border-bottom:1px solid var(--line)}
+.slides{display:flex;transition:transform .8s cubic-bezier(.65,0,.35,1)}.slide{min-width:100%}
+.dots{display:flex;justify-content:center;gap:10px;padding:0 0 18px}.dots button{width:34px;height:4px;border:0;border-radius:2px;background:#ffffff44;cursor:pointer;padding:0}.dots button[aria-current="true"]{background:#c9ad6e}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding-top:16px;padding-bottom:16px;font-size:14px;color:var(--mute)}
+.strip b{display:block;color:var(--ink);font-size:15px}
+section{padding:54px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:24px;flex-wrap:wrap}
+.sh h2{font-size:clamp(28px,3.6vw,40px);color:var(--maroon)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sh h2{color:var(--brass2)}}
+.sh p{margin:0;color:var(--mute)}
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cat{background:var(--surface);border:1px solid var(--line);padding:0;text-align:left;cursor:pointer;color:var(--ink);font:inherit;border-radius:6px;overflow:hidden}
+.cat .ph{aspect-ratio:4/3}
+.cat span{display:block;padding:12px 14px;font:700 19px "Cormorant Garamond",serif}
+.cat small{display:block;font:400 13px Mukta;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.ph{background:radial-gradient(circle at 30% 25%,#d6c28f,#a58747 50%,#6a5126);display:grid;place-items:center;aspect-ratio:1/1;position:relative}
+.ph svg{width:52%;fill:none;stroke:#4a2f0c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+.card h3{font-size:21px;padding:14px 14px 0}
+.card .te{padding:0 14px;color:var(--mute);font-size:14px}
+.card .price{padding:8px 14px;font-weight:700;color:var(--maroon)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card .price{color:var(--brass2)}}
+.card .act{display:flex;gap:8px;padding:0 14px 14px;margin-top:auto}
+.card .act .btn{flex:1;padding:10px 8px;font-size:14px;text-align:center}
+.tag{position:absolute;top:10px;left:10px;background:var(--maroon);color:#fbefd2;font-size:12px;font-weight:700;padding:3px 9px;border-radius:3px}
+.empty{grid-column:1/-1;text-align:center;color:var(--mute);padding:30px}
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about p{color:var(--mute);font-size:17px}
+.about ul{padding-left:18px;color:var(--mute)}
+.visit{background:var(--maroon);color:#fbefd2}
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.visit h2{color:#f3d98d;font-size:36px;margin-bottom:12px}
+.visit a{color:#f3d98d}
+.visit p{margin:6px 0}
+.map{border:1px solid #e6c36e55;border-radius:6px;min-height:240px;display:grid;place-items:center;text-align:center;padding:20px;background:#ffffff0d}
+footer{padding:22px 0;text-align:center;color:var(--mute);font-size:14px}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;background:#2f7a4f;color:#fff;border-radius:999px;padding:13px 20px;font-weight:700;text-decoration:none;box-shadow:0 4px 14px #0004}
+.drawer{position:fixed;inset:0 0 0 auto;width:min(400px,100%);background:var(--bg);z-index:50;transform:translateX(105%);transition:transform .25s;display:flex;flex-direction:column;border-left:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.drawer.open{transform:none}
+.drawer header{position:static;display:flex;justify-content:space-between;align-items:center;padding:16px 20px}
+.drawer h2{font-size:26px}
+.items{flex:1;overflow:auto;padding:0 20px}
+.row{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.qty{display:flex;align-items:center;gap:8px}
+.qty button{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.dfoot{padding:16px 20px calc(16px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line)}
+.dfoot .btn{width:100%;text-align:center}
+.dfoot input{width:100%;padding:10px;margin-bottom:10px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink);font:inherit}
+@media (max-width:900px){.cats,.grid{grid-template-columns:repeat(2,1fr)}.hero .wrap,.about .wrap,.visit .wrap{grid-template-columns:1fr}.strip .wrap{grid-template-columns:repeat(2,1fr)}.hero svg{max-height:220px}}
+@media (max-width:520px){.search{display:none}.cartbtn{margin-left:auto}.card h3{font-size:18px}.card .act{flex-direction:column}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="top">Genuine brass &amp; traditional wedding items from Begum Bazar · Order on <a href="https://wa.me/916300905724">WhatsApp 63009 05724</a></div>
+<header>
+  <div class="bar">
+    <a class="logo" href="#top" id="top">Wedding Mart<small>Sri Balaji Craft · Begum Bazar</small></a>
+    <div class="search"><input id="q" type="search" placeholder="Search kanyadanam, petali, basen…" aria-label="Search products"></div>
+    <button class="cartbtn" id="openCart" aria-label="Open cart">Cart<b id="count">0</b></button>
+  </div>
+  <nav><div class="in" id="tabs"></div></nav>
+</header>
+
+<div class="hero"><div class="slides" id="slides"><div class="slide">
+  <div class="wrap">
+    <div>
+      <h1>Everything for the wedding mandap, in pure brass</h1>
+      <p>Kanyadanam sets, talambralu basins, ungarala bindelu and pooja essentials, chosen by a family shop in Khan Market, Begum Bazar since generations.</p>
+      <div class="cta"><a class="btn gold" href="#shop">Shop the collection</a><a class="btn line" href="https://wa.me/c/918309723307" target="_blank" rel="noopener">View WhatsApp catalog</a></div>
+    </div>
+    <svg viewBox="0 0 400 300" role="img" aria-label="Brass kalash and diya illustration">
+      <defs><radialGradient id="g" cx=".3" cy=".25" r=".9"><stop offset="0" stop-color="#d9c48f"/><stop offset=".5" stop-color="#a58747"/><stop offset="1" stop-color="#5e4520"/></radialGradient></defs>
+      <path d="M130 90h140l-14 24c40 30 52 80 30 130-8 18-26 28-46 28h-80c-20 0-38-10-46-28-22-50-10-100 30-130z" fill="url(#g)"/>
+      <ellipse cx="200" cy="90" rx="72" ry="14" fill="#8f6420"/>
+      <path d="M200 20c20 20 28 40 0 64-28-24-20-44 0-64z" fill="#e8744a"/>
+      <circle cx="200" cy="170" r="28" fill="none" stroke="#5c3a0c" stroke-width="4"/>
+      <path d="M60 280h280" stroke="#c9ad6e" stroke-width="3"/>
+    </svg>
+  </div></div>
+  <div class="slide"><div class="wrap"><div>
+    <h1>Talambralu basen and ungarala bindelu</h1>
+    <p>Plain and special designs for the wedding ceremony, made to last through every function.</p>
+    <div class="cta"><a class="btn gold" href="#shop" data-c="talambralu">See basen</a><a class="btn line" href="#shop" data-c="ungarala">See bindelu</a></div>
+  </div>
+  <svg viewBox="0 0 400 300" role="img" aria-label="Brass basin illustration"><ellipse cx="200" cy="120" rx="140" ry="34" fill="#6a5126"/><path d="M60 120c0 90 60 140 140 140s140-50 140-140c-30 22-80 34-140 34s-110-12-140-34z" fill="#a58747"/><ellipse cx="200" cy="120" rx="110" ry="22" fill="#e7d9b4" opacity=".8"/><path d="M110 200c60 24 120 24 180 0" stroke="#5e4520" stroke-width="4" fill="none"/></svg></div></div>
+  <div class="slide"><div class="wrap"><div>
+    <h1>Kanyadanam sets, pure brass and Meenakshi</h1>
+    <p>Complete sets for the kanyadanam ritual. Message us for photos, prices and combos.</p>
+    <div class="cta"><a class="btn gold" href="#shop" data-c="kanyadanam">See sets</a><a class="btn line" href="https://wa.me/916300905724" target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+  </div>
+  <svg viewBox="0 0 400 300" role="img" aria-label="Brass pot and plate illustration"><circle cx="130" cy="170" r="86" fill="#a58747"/><circle cx="130" cy="170" r="62" fill="none" stroke="#5e4520" stroke-width="4"/><circle cx="130" cy="170" r="30" fill="#6a5126"/><path d="M260 110h90l-10 22c26 20 32 56 18 92-6 14-18 20-32 20h-42c-14 0-26-6-32-20-14-36-8-72 18-92z" fill="#8e7138"/><ellipse cx="305" cy="110" rx="45" ry="9" fill="#5e4520"/></svg></div></div>
+  </div>
+  <div class="dots" id="dots"></div>
+</div>
+<div class="strip"><div class="wrap">
+  <div><b>Pure brass</b>Traditional workmanship</div>
+  <div><b>Order on WhatsApp</b>Quick replies, simple ordering</div>
+  <div><b>Visit the shop</b>Khan Market, Begum Bazar</div>
+  <div><b>Bulk &amp; wedding orders</b>Ask for sets and combos</div>
+</div></div>
+
+<section>
+  <div class="wrap">
+    <div class="sh"><h2>Shop by category</h2><p>Tap a category to see its items</p></div>
+    <div class="cats" id="cats"></div>
+  </div>
+</section>
+
+<section id="shop" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh"><h2 id="shopTitle">All products</h2><p id="shopCount"></p></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="about" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div>
+      <h2 style="font-size:38px;color:var(--maroon)">A trusted name in Begum Bazar</h2>
+      <p>Wedding Mart supplies the items a Telugu wedding asks for: the kanyadanam set, rice basins for talambralu, ring pots for ungarala bindelu, and the pooja items that go with them.</p>
+      <p>Not sure what a ceremony needs? Message us your date and the items you have, and we will help you put the set together.</p>
+    </div>
+    <ul>
+      <li>Pure brass and Meenakshi kanyadanam sets</li>
+      <li>Special talambrala basen and ungarala bindelu</li>
+      <li>Petali, addu tera and pooja items</li>
+      <li>Photos and prices shared on WhatsApp on request</li>
+    </ul>
+  </div>
+</section>
+
+<section class="visit" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>Visit or message us</h2>
+      <p><b>Wedding Mart</b><br>Khan Market, Begum Bazar,<br>Hyderabad, Telangana 500012</p>
+      <p>Phone / WhatsApp: <a href="tel:+916300905724">63009 05724</a></p>
+      <p>Email: <a href="mailto:anikethsingh012@gmail.com">anikethsingh012@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/wedding_mart_" target="_blank" rel="noopener">@wedding_mart_</a></p>
+      <p style="margin-top:18px"><a class="btn gold" href="https://www.google.com/maps?q=17.3743547,78.4733407" target="_blank" rel="noopener">Get directions</a></p>
+    </div>
+    <div class="map"><div><b style="font-size:20px">Khan Market, Begum Bazar</b><p>17.3743547, 78.4733407</p><p>Open in Google Maps for the route</p></div></div>
+  </div>
+</section>
+<footer>© <span id="yr"></span> Wedding Mart · Sri Balaji Craft, Begum Bazar, Hyderabad</footer>
+
+<a class="fab" href="https://wa.me/916300905724?text=Hello%20Wedding%20Mart%2C%20I%20want%20to%20enquire%20about%20your%20items." target="_blank" rel="noopener">WhatsApp us</a>
+
+<aside class="drawer" id="drawer" aria-label="Cart" aria-hidden="true">
+  <header><h2>Your order</h2><button class="cartbtn" id="closeCart">Close</button></header>
+  <div class="items" id="items"></div>
+  <div class="dfoot">
+    <input id="cname" placeholder="Your name (optional)" aria-label="Your name">
+    <a class="btn gold" id="send" href="#" target="_blank" rel="noopener">Send order on WhatsApp</a>
+  </div>
+</aside>
+
+<script>
+// ===== EDIT HERE =====
+var PHONE="916300905724";
+// price: put a number (e.g. 1250) to show ₹1,250; leave null to show "Price on request"
+var CATS=[
+ {id:"kanyadanam",name:"Kanyadanam sets",icon:"M12 14h40l-6 10c12 8 16 22 10 34H8C2 46 6 32 18 24z"},
+ {id:"talambralu",name:"Talambralu basen",icon:"M6 30h52c0 16-10 26-26 26S6 46 6 30zM20 22h24"},
+ {id:"ungarala",name:"Ungarala bindelu",icon:"M20 14h24l4 12c4 14-2 26-16 26S12 40 16 26z"},
+ {id:"pooja",name:"Pooja items",icon:"M32 8c8 8 10 14 0 22-10-8-8-14 0-22zM10 46h44l-6 10H16z"}
+];
+var P=[
+ {n:"Pure brass kanyadanam set",te:"కన్యాదానం సెట్",c:"kanyadanam",price:null,tag:"Pure brass"},
+ {n:"Meenakshi kanyadanam set",te:"మీనాక్షి కన్యాదానం సెట్",c:"kanyadanam",price:null,tag:"Meenakshi"},
+ {n:"Meenakshi kanyadanam set (premium)",te:"మీనాక్షి కన్యాదానం సెట్",c:"kanyadanam",price:null},
+ {n:"Talambralu basen",te:"తలంబ్రాల బేసిన్",c:"talambralu",price:null},
+ {n:"Special talambrala basen",te:"స్పెషల్ తలంబ్రాల బేసిన్",c:"talambralu",price:null,tag:"Special"},
+ {n:"Ungarala bindelu",te:"ఉంగరాల బిందెలు",c:"ungarala",price:null},
+ {n:"Special ungarala bindelu",te:"స్పెషల్ ఉంగరాల బిందెలు",c:"ungarala",price:null,tag:"Special"},
+ {n:"Petali",te:"పేటలి (పూజా సామాను)",c:"pooja",price:null},
+ {n:"Addu tera",te:"అడ్డు తెర",c:"pooja",price:null}
+];
+// ======================
+var cart={},cat="all",term="",$=function(i){return document.getElementById(i)};
+var iconOf=function(c){return CATS.filter(function(x){return x.id==c})[0].icon};
+var svg=function(c){return '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="'+iconOf(c)+'"/></svg>'};
+var money=function(p){return p==null?"Price on request":"₹"+p.toLocaleString("en-IN")};
+function tabs(){var h='<button aria-pressed="'+(cat=="all")+'" data-c="all">All</button>';
+ CATS.forEach(function(c){h+='<button aria-pressed="'+(cat==c.id)+'" data-c="'+c.id+'">'+c.name+'</button>'});
+ $("tabs").innerHTML=h}
+function cats(){$("cats").innerHTML=CATS.map(function(c){var k=P.filter(function(p){return p.c==c.id}).length;
+ return '<button class="cat" data-c="'+c.id+'"><div class="ph">'+svg(c.id)+'</div><span>'+c.name+'<small>'+k+' items</small></span></button>'}).join("")}
+function grid(){var L=P.map(function(p,i){p.i=i;return p}).filter(function(p){return (cat=="all"||p.c==cat)&&(p.n+p.te).toLowerCase().indexOf(term)>-1});
+ $("shopTitle").textContent=cat=="all"?"All products":CATS.filter(function(c){return c.id==cat})[0].name;
+ $("shopCount").textContent=L.length+" items · photos and prices coming soon";
+ $("grid").innerHTML=L.length?L.map(function(p){return '<article class="card"><div class="ph">'+(p.tag?'<span class="tag">'+p.tag+'</span>':'')+svg(p.c)+'</div><h3>'+p.n+'</h3><div class="te">'+p.te+'</div><div class="price">'+money(p.price)+'</div><div class="act"><button class="btn" data-add="'+p.i+'">Add to order</button><a class="btn gold" target="_blank" rel="noopener" href="https://wa.me/'+PHONE+'?text='+encodeURIComponent("Hello Wedding Mart, I want to enquire about: "+p.n)+'">Enquire</a></div></article>'}).join(""):'<div class="empty">No items match your search. Try another word.</div>'}
+function render(){var n=0,lines=[],h="";Object.keys(cart).forEach(function(i){var q=cart[i],p=P[i];n+=q;lines.push(q+" x "+p.n);
+ h+='<div class="row"><div><b>'+p.n+'</b><br><small>'+money(p.price)+'</small></div><div class="qty"><button data-m="'+i+'" aria-label="Less">−</button>'+q+'<button data-p="'+i+'" aria-label="More">+</button></div></div>'});
+ $("count").textContent=n;$("items").innerHTML=h||'<p style="color:var(--mute)">Your order is empty. Add items from the shop.</p>';
+ var nm=$("cname").value.trim();
+ $("send").href="https://wa.me/"+PHONE+"?text="+encodeURIComponent("Hello Wedding Mart"+(nm?", I am "+nm:"")+". I would like to order:\n"+(lines.join("\n")||"(please share your catalog)")+"\nPlease confirm price and availability.")}
+function setCat(c){cat=c;tabs();grid()}
+document.addEventListener("click",function(e){var t=e.target.closest("[data-c],[data-add],[data-p],[data-m]");if(!t)return;
+ if(t.dataset.c){setCat(t.dataset.c);$("shop").scrollIntoView()}
+ if(t.dataset.add){cart[t.dataset.add]=(cart[t.dataset.add]||0)+1;render();$("count").parentNode.animate([{transform:"scale(1.1)"},{transform:"none"}],200)}
+ if(t.dataset.p){cart[t.dataset.p]++;render()}
+ if(t.dataset.m){if(--cart[t.dataset.m]<1)delete cart[t.dataset.m];render()}});
+$("q").addEventListener("input",function(e){term=e.target.value.toLowerCase();grid()});
+$("cname").addEventListener("input",render);
+function drawer(o){$("drawer").classList.toggle("open",o);$("drawer").setAttribute("aria-hidden",!o)}
+$("openCart").onclick=function(){drawer(true)};$("closeCart").onclick=function(){drawer(false)};
+$("yr").textContent=new Date().getFullYear();
+(function(){var s=$("slides"),n=s.children.length,i=0,t,d="";
+ for(var k=0;k<n;k++)d+='<button data-s="'+k+'" aria-label="Slide '+(k+1)+'"></button>';
+ $("dots").innerHTML=d;
+ function go(x){i=(x+n)%n;s.style.transform="translateX(-"+i*100+"%)";Array.prototype.forEach.call($("dots").children,function(b,j){b.setAttribute("aria-current",j==i)})}
+ function play(){clearInterval(t);if(!matchMedia("(prefers-reduced-motion:reduce)").matches)t=setInterval(function(){go(i+1)},5000)}
+ $("dots").addEventListener("click",function(e){if(e.target.dataset.s){go(+e.target.dataset.s);play()}});
+ s.parentNode.addEventListener("mouseenter",function(){clearInterval(t)});s.parentNode.addEventListener("mouseleave",play);
+ go(0);play()})();
+tabs();cats();grid();render();
+</script>
+</body>
+</html>
